@@ -1,0 +1,36 @@
+.fade-up,
+        .fade-left,
+        .fade-right {
+            opacity: 0;
+            transform: translateY(30px);
+            transition: all 0.8s ease-out;
+        }
+
+        .fade-left {
+            transform: translateX(-30px);
+        }
+
+        .fade-right {
+            transform: translateX(30px);
+        }
+
+        .fade-up.show,
+        .fade-left.show,
+        .fade-right.show {
+            opacity: 1;
+            transform: translate(0, 0);
+        }
+
+        .hover-zoom:hover {
+            transform: scale(1.05);
+            transition: transform 0.4s ease-in-out;
+        }
+
+        .feature-card {
+            transition: transform 0.4s, box-shadow 0.4s;
+        }
+
+        .feature-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+        }
