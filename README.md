@@ -39,7 +39,7 @@
 > Tambahkan gambar berikut di folder `screenshots/` dan sesuaikan nama file.
 
 <p align="center">
-    <img src="screenshots/landingpage1.png" width="600" alt="Home Screenshot">
+    <img src="screenshoot/landingpage1.png" width="600" alt="Home Screenshot">
     <br>
     <img src="screenshots/galeri.png" width="600" alt="Galeri Screenshot">
     <br>
