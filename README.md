@@ -32,7 +32,7 @@
 -   ✅ Tentang desa (profil dan sejarah)
 -   ✅ Galeri foto wisata
 -   ✅ Kontak dan lokasi desa wisata
--   ✅ (Opsional) Login Admin & Manajemen Data Wisata
+-   ✅ Login Admin & Manajemen Data Wisata
 
 ## 📷 Screenshot
 
@@ -138,7 +138,7 @@ websitewisatadesa/
 
 -   🌐 Laravel
 
--   🎨 Bootstrap (jika digunakan)
+-   🎨 Bootstrap / Tailwind
 
 -   🗃️ MySQL
 
