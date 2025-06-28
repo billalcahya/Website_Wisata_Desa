@@ -41,7 +41,7 @@
 <p align="center">
     <img src="screenshoot/landingpage1.png" width="600" alt="Home Screenshot">
     <br>
-    <img src="screenshots/galeri.png" width="600" alt="Galeri Screenshot">
+    <img src="screenshoot/landingpage2.png" width="600" alt="Galeri Screenshot">
     <br>
     <img src="screenshots/kontak.png" width="600" alt="Kontak Screenshot">
 </p>
