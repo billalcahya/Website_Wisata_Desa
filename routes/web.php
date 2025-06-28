@@ -46,7 +46,8 @@ Route::get('/profil_lengkap_desa', function () {
 Route::get('/daftar_wisata', function () {
     $wisatas = Wisata::all();
     return view('daftar_wisata', compact('wisatas'));
-});
+})->name('daftar_wisata');
+
 
 // Paket wisata grouped by type
 Route::get('/paket_wisata', function () {

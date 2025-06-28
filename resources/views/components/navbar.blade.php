@@ -17,7 +17,7 @@
                            </a>
 
                            <a href="/daftar_wisata"
-                               class="{{ request()->routeIs('daftar_wisata', 'wisata.show') ? 'bg-orange-100 text-[#E5770D]' : 'text-[#E5770D] hover:bg-orange-100 hover:text-[#cf650a]' }} rounded-md px-3 py-2 text-lg font-semibold transition">
+                               class="{{ request()->routeIs('daftar_wisata', 'wisata.show') ? 'bg-orange-100 text-[#E5770D]' : 'text-[#E5770D] hover:bg-orange-100 hover:text-[#cf650a]' }} rounded-md px-3 py-2 text-lg font-semibold transition"  aria-current="page">
                                Daftar Wisata Desa
                            </a>
 
