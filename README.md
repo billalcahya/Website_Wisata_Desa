@@ -133,7 +133,7 @@ websitewisatadesa/
 
  - 📝 Blade
 
-##💡 Catatan
+## 💡 Catatan
  - Pastikan composer install berhasil sebelum menjalankan server.
 
  - Jika menggunakan XAMPP/Laragon, letakkan folder di htdocs.
