@@ -20,30 +20,37 @@
 
 **Website Wisata Desa** adalah aplikasi berbasis **Laravel** yang dikembangkan untuk mempromosikan potensi wisata di sebuah desa. Website ini memiliki fitur:
 
-- Informasi lengkap destinasi wisata desa
-- Galeri foto wisata
-- Halaman tentang desa
-- Informasi kontak dan lokasi desa wisata
-- (Opsional) Admin dashboard untuk CRUD data wisata
+-   Informasi lengkap destinasi wisata desa
+-   Galeri foto wisata
+-   Halaman tentang desa
+-   Informasi kontak dan lokasi desa wisata
+-   (Opsional) Admin dashboard untuk CRUD data wisata
 
 ## 🚀 Fitur Utama
 
-- ✅ Beranda dengan deskripsi wisata desa
-- ✅ Tentang desa (profil dan sejarah)
-- ✅ Galeri foto wisata
-- ✅ Kontak dan lokasi desa wisata
-- ✅ (Opsional) Login Admin & Manajemen Data Wisata
+-   ✅ Beranda dengan deskripsi wisata desa
+-   ✅ Tentang desa (profil dan sejarah)
+-   ✅ Galeri foto wisata
+-   ✅ Kontak dan lokasi desa wisata
+-   ✅ (Opsional) Login Admin & Manajemen Data Wisata
 
 ## 📷 Screenshot
-
-> Tambahkan gambar berikut di folder `screenshots/` dan sesuaikan nama file.
 
 <p align="center">
     <img src="screenshoot/landingpage1.png" width="600" alt="Home Screenshot">
     <br>
     <img src="screenshoot/landingpage2.png" width="600" alt="Galeri Screenshot">
     <br>
-    <img src="screenshots/kontak.png" width="600" alt="Kontak Screenshot">
+    <img src="screenshoot/profildesa1.png" width="600" alt="Galeri Screenshot">
+    <br>
+    <img src="screenshoot/profildesa2.png" width="600" alt="Galeri Screenshot">
+    <br>
+    <img src="screenshoot/daftarwisata.png" width="600" alt="Galeri Screenshot">
+    <br>
+    <img src="screenshoot/paketwisata.png" width="600" alt="Galeri Screenshot">
+    <br>
+    <img src="screenshoot/kontak.png" width="600" alt="Galeri Screenshot">
+    <br>
 </p>
 
 ## ⚙️ Instalasi
@@ -52,13 +59,14 @@
 
 ```
 git clone https://github.com/billalcahya/websitewisatadesa.git
-cd websitewisatadesa 
+cd websitewisatadesa
 ```
 
 ## 📦 Install dependencies
+
 Pastikan Composer sudah terinstall. Jalankan:
 
-``` 
+```
 composer install
 npm install
 npm run dev
@@ -79,6 +87,7 @@ php artisan key:generate
 ```
 
 ## 🛢️ Setup database
+
 Buat database di phpMyAdmin sesuai nama di .env
 
 Sesuaikan konfigurasi database:
@@ -92,17 +101,18 @@ DB_USERNAME=root
 DB_PASSWORD=
 ```
 
-Jalankan migration : 
+Jalankan migration :
 
 ```
 php artisan migrate
 ```
 
-## 🚀 Jalankan server 
+## 🚀 Jalankan server
 
 ```
 php artisan serve
 ```
+
 Buka browser dan akses: http://127.0.0.1:8000
 
 ## 📝 Struktur Folder Penting
@@ -125,19 +135,21 @@ websitewisatadesa/
 ```
 
 ## 🛠️ Built With
- - 🌐 Laravel
 
- - 🎨 Bootstrap (jika digunakan)
+-   🌐 Laravel
 
- - 🗃️ MySQL
+-   🎨 Bootstrap (jika digunakan)
 
- - 📝 Blade
+-   🗃️ MySQL
+
+-   📝 Blade
 
 ## 💡 Catatan
- - Pastikan composer install berhasil sebelum menjalankan server.
 
- - Jika menggunakan XAMPP/Laragon, letakkan folder di htdocs.
+-   Pastikan composer install berhasil sebelum menjalankan server.
 
- - Sesuaikan nama database di .env dengan phpMyAdmin.
+-   Jika menggunakan XAMPP/Laragon, letakkan folder di htdocs.
 
- - Jika menggunakan asset frontend (CSS/JS) dengan Vite, jalankan juga npm run dev atau npm run build sesuai kebutuhan.
+-   Sesuaikan nama database di .env dengan phpMyAdmin.
+
+-   Jika menggunakan asset frontend (CSS/JS) dengan Vite, jalankan juga npm run dev atau npm run build sesuai kebutuhan.
