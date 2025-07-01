@@ -105,6 +105,7 @@ Jalankan migration :
 
 ```
 php artisan migrate
+php artisan db:seed
 ```
 
 ## 🚀 Jalankan server

@@ -15,9 +15,9 @@ class DummyUsersSeeder extends Seeder
     {
         $userData = [
             [
-                'name' => 'mas operator',
-                'email' => 'operator@gmail.com',
-                'password' => bcrypt('123456'),
+                'name' => 'admin',
+                'email' => 'admin@gmail.com',
+                'password' => bcrypt('12345678'),
             ],
             ];
 
